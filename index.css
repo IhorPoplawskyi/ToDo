@@ -1,0 +1,15 @@
+.text-through {
+  text-decoration: line-through;
+}
+
+.width {
+  width: 1100px;
+}
+
+.list-group li {
+  font-size: 21px;
+}
+
+.bg-color-done {
+  background-color: rgb(233, 233, 233) !important
+}

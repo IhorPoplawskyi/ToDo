@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html leng="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+</head>
+<body>
+  <div class="form-section mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col col-8 mx-auto">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Add new task</h5>
+              <form name="addTask" >
+                <input type="text" name="body" id="body" class="form-control mt-3" placeholder="task"/>
+                <button type="submit" class="btn btn-secondary mt-4">Add task</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="task-list-section mt-5">
+    <div class="container">
+      <ul class="list-group">
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
